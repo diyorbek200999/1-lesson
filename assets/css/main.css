@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.box2 {
+    width: 560px;
+    height: 560px;
+    border-radius: 50px;
+    border: 1px solid green;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 10px rgb(255, 30, 195);
+    background-color: white;
+}
+
+.box3 {
+    width: 520px;
+    height: 520px;
+    border-radius: 50px;
+    border: 1px solid chartreuse;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 10px chocolate;
+    background-color: white;
+}
+
+.box4 {
+    width: 480px;
+    height: 480px;
+    border-radius: 30px;
+    border: 1px solid cadetblue;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 10px green;
+    background-color: white;
+}
+
+.box5 {
+    width: 440px;
+    height: 440px;
+    border-radius: 30px;
+    border: 1px solid red;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 10px cadetblue;
+    background-color: white;
+}
+
+.box6 {
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    border: 1px solid pink;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 10px yellow;
+    background-color: white;
+}
+
+.box7 {
+    width: 360px;
+    height: 360px;
+    border-radius: 30px;
+    border: 1px solid cadetblue;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 10px red;
+    background-color: white;
+}
+
+.box8 {
+    width: 320px;
+    height: 320px;
+    border-radius: 30px;
+    border: 1px solid rgb(134, 63, 63);
+    padding: 20px;
+    box-shadow: 5px 5px 5px 10px rgb(46, 74, 101);
+    background-color: white;
+}
+
+.box9 {
+    width: 280px;
+    height: 280px;
+    border-radius: 40px;
+    border: 1px solid rgb(193, 99, 99);
+    padding: 20px;
+    box-shadow: 5px 5px 5px 10px dodgerblue;
+    background-color: white;
+}
+
+.box10 {
+    width: 240px;
+    height: 240px;
+    border-radius: 40px;
+    border: 1px solid rgb(94, 174, 80);
+    padding: 20px;
+    position: absolute;
+    box-shadow: 5px 5px 5px 10px rgb(30, 255, 71);
+    background-color: white;
+}
+
+.box11 {
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    border: 1px solid rgb(99, 160, 193);
+    padding: 20px;
+    box-shadow: 5px 5px 5px 10px rgb(70, 81, 93);
+    background-color: white;
+}
+
+.box12 {
+    width: 160px;
+    height: 160px;
+    border-radius: 40px;
+    border: 1px solid rgb(193, 99, 99);
+    padding: 20px;
+    box-shadow: 5px 5px 5px 10px rgb(255, 30, 30);
+    background-color: white;
+}
+
+.box13 {
+    width: 120px;
+    height: 120px;
+    border-radius: 40px;
+    border: 1px solid dodgerblue(193, 99, 99);
+    padding: 20px;
+    box-shadow: 5px 5px 5px 10px purple;
+    background-color: white;
+}
+
+.box14 {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    border: 1px solid rgb(193, 99, 99);
+    margin: 20px;
+    box-shadow: 5px 5px 5px 10px purple;
+    background-color: white;
+}
+
+div {
+    animation: box 30s infinite linear;
+}
+
+@keyframes box {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
